@@ -15,7 +15,7 @@ Steps -
 2. Plotted and decomposed the series into trend, seasonality, and residuals  
 3. Checked for stationarity with the Augmented Dickey-Fuller (ADF) test  
 4. Applied differencing to achieve stationarity  
-5. Selected ARIMA parameters using `auto_arima`  
+5. Selected ARIMA parameters using auto_arima  
 6. Built and fitted the ARIMA(1,0,2) model  
 7. Validated with a train/test split (last 18 days)  
 8. Evaluated results – RMSE ≈ 12.79, forecasts closely followed actual prices
